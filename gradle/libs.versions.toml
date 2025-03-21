@@ -10,6 +10,8 @@ activityCompose = "1.10.0"
 composeBom = "2024.04.01"
 truthVersion = "1.4.4"
 viewmodel = "2.5.1"
+googleFirebaseAppdistribution = "5.1.1"
+googleGmsGoogleServices = "4.4.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -33,4 +35,6 @@ google-truth = { group = "com.google.truth", name = "truth", version.ref = "trut
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-firebase-appdistribution = { id = "com.google.firebase.appdistribution", version.ref = "googleFirebaseAppdistribution" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 
